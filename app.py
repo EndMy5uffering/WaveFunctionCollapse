@@ -2,7 +2,7 @@ from multiprocessing.connection import wait
 from flask import Flask, render_template
 import waitress
 import flask
-PORT = 666
+PORT = 8080
 
 app = Flask(__name__, static_url_path='/static', static_folder='./static')
 
